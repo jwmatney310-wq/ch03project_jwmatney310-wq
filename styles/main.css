@@ -1,0 +1,100 @@
+/* Jackson Matney | September 30, 2026 */
+
+body {
+    font-family: Arial, sans-serif;
+    color: #222222;
+    background-color: #ffffff;
+    margin: 20px;
+    line-height: 1.5;
+}
+
+h1, h2 {
+    color: #164b79;
+}
+
+nav ul {
+    background-color: #164b79;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav li:hover {
+    background-color: #28699e;
+}
+
+nav li a {
+    display: block;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+nav li a:focus {
+    background-color: #28699e;
+    outline: 2px solid #ffffff;
+    outline-offset: -4px;
+}
+
+a {
+    color: #164b79;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #777777;
+    padding: 10px;
+    text-align: left;
+}
+
+thead {
+    background-color: #164b79;
+    color: #ffffff;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #e7f0f8;
+}
+
+img {
+    height: auto;
+}
+
+figure {
+    margin: 0;
+}
+
+.bordered-image {
+    border: 3px solid #164b79;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input {
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+    padding: 8px;
+}
+
+input[type="button"] {
+    background-color: #164b79;
+    color: #ffffff;
+    border: 1px solid #164b79;
+}
+
+footer {
+    border-top: 1px solid #777777;
+    margin-top: 20px;
+    font-size: 0.9em;
+}
